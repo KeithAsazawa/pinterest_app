@@ -5,22 +5,24 @@ $navbarBackgroundHighlight: white;
 /*$navbarBackground: white;*/
 $btnPrimaryBackground: purple;
 
-@import 'bootstrap';
 body{
     padding-top: 60px;
 }
 
-@import 'bootstrap-responsive';
-
 .navbar-inner{
     @include box-shadow(none !important);
     border: 0;
+    height: 55px;
+    .container {
+    	padding-top: 8px;
+    }
 }
 
 .footer{
+	border-top: 1px solid $grayLight;
     margin-top: 50px;
     color: $grayLight;
     a{
-        color: $gray;
+        color: $grayLight;
     }
 }

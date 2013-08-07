@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
-
+gem 'devise'
+gem 'simple_form'
 
 group :development do
 	gem 'sqlite3'
