@@ -8,6 +8,7 @@ gem 'simple_form'
 gem 'paperclip', '~> 3.0'
 gem 'aws-sdk'
 gem 'hirb'
+gem 'bootstrap-will_paginate', '0.0.6'
 
 group :development do
 	gem 'sqlite3'
