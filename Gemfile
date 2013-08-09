@@ -5,7 +5,9 @@ gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
-gem "paperclip", "~> 3.0"
+gem 'paperclip', '~> 3.0'
+gem 'aws-sdk'
+gem 'hirb'
 
 group :development do
 	gem 'sqlite3'
